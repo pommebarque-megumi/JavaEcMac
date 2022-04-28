@@ -1,0 +1,12 @@
+package pc;
+
+public class Pc {
+	IUSB usb;
+	public void stUsb(IUSB usb) {
+		this.usb=usb;
+	}
+	public void executeUSB() {
+		this.usb.excute();
+	}
+
+}
