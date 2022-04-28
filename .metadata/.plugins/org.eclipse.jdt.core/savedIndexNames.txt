@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+/Users/sugawaramegumi/Desktop/JavaEcMac/.metadata/.plugins/org.eclipse.jdt.core
-969878818.index
-1278750107.index
