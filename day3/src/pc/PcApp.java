@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PcApp {
 
 	public static void main(String[] args) {
+		//
 		Pc pc=new Pc();
 		pc.setUsb(new USBMemory());
 		pc.executeUSB();
@@ -16,7 +17,7 @@ public class PcApp {
 		pc.executeUSB();
 	}
 
-}
+}//
 class USBMemory implements IUSB{
 	@Override
 	public void execute() {
