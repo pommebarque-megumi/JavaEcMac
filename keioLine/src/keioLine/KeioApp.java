@@ -21,10 +21,10 @@ public class KeioApp {
 		ArrayList <String>kIStaUp = new ArrayList<>(KeioStation.makeStationUp(kIStaDown));
 		Map<Integer,KeioLine> keiolines=new LinkedHashMap <Integer,KeioLine>(){
 			{
-			put(1,new KeioLine(LINENAME[0],kStaDown,kStaUp));
-			put(2, new KeioLine(LINENAME[1],kTStaDown,kTStaUp));
-			put(3,new KeioLine(LINENAME[2],kSStaDown,kSStaUp));
-			put(4,new KeioLine(LINENAME[3],kIStaDown,kIStaUp) );
+				put(1,new KeioLine(LINENAME[0],kStaDown,kStaUp));
+				put(2, new KeioLine(LINENAME[1],kTStaDown,kTStaUp));
+				put(3,new KeioLine(LINENAME[2],kSStaDown,kSStaUp));
+				put(4,new KeioLine(LINENAME[3],kIStaDown,kIStaUp) );
 			}
 		};
 		while(true) {
@@ -48,7 +48,7 @@ public class KeioApp {
 					keiolines.get(trainChoice).getOnDown();
 					keiolines.get(trainChoice).trip(keiolines.get(trainChoice).stationDown);
 				}
-			break;
+				break;
 			case 3:
 				System.out.print("調べたい駅を入力してください>>");
 				String station=SC.next();
