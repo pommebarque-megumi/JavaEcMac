@@ -1,0 +1,77 @@
+@charset "UTF-8";
+.container{
+	width:600px;
+	margin:20px auto 50px;/*要素の上20px,下50px,左右autoでmarginをつけてくれる。*/
+}
+h1{
+	background:#c7b996;
+	color:#333;
+	border-left:8px solid #75522a;
+	box-sizing:border-box;
+	padding:9px 8px;
+	font-size:18px;
+	margin-bottom:10px;
+}
+table{
+	margin:20px 0px;
+	width:100%;
+}
+th,td{
+	border:1px solid #75522a;
+}
+th{
+	vertical-align:top;
+	width:200px;
+	background:#c7b996;
+	color:#333;
+	font-size:16px;
+	padding:10px 8px;
+}
+td{
+	padding:10px 15px 10px 10px;
+	background:#eee;
+}
+input,textarea{
+	display:inline-block;
+	width:100%;
+	padding:3px 5px;
+	box-sizing:border-box;
+}
+textarea{
+	height:140px;
+	resize:vertical;
+}
+button,
+.btBox a
+{
+	display:block;
+	margin:0 auto;
+	width:200px;
+	height:50px;
+	text-align:center;
+	font-size:16px;
+	color:#75522a;
+	border:3px solid #75522a;
+	border-radius:5px;
+	background:#fff;
+	transition:0.3s;
+}
+.btBox{
+	display:flex;
+	justify-content:center;
+	line-height:52px;
+}
+.btBox a{
+	margin:10px;
+	text-decoration:none;
+}
+button:hover,
+.btBox a:hover
+{
+	cursor:pointer;
+	color:#fff;
+	background:#75522a;
+}
+p{
+	text-align:center;
+}
